@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ítalo Cardoso da Silva - Desenvolvedor Jr</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="shortcut icon" href="./src/imagens/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">IS</h1>
+        </a>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#projetos" data-i18n="meusProjetos">Meus Projetos</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim" data-i18n="sobreMim">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="#formacao" data-i18n="formacoes">Formações</a>
+                </li>
+                <li>
+                    <select name="idioma" id="idioma">
+                      <option value="pt">Português</option>
+                      <option value="en">English</option>
+                      <option value="es">Español</option>
+                    </select>
+                  </li>  
+            </ul>           
+        </nav>
+    </header>
+    <section class="home">
+        <div class="informacoes" id="#sobre-mim">
+            <h1 data-i18n="titulo">Olá, Sou o Ítalo Silva</h1>
+            <p data-i18n="descricao">Estudante de programação, me identifiquei com a área, ainda no estágio, trabalhando muito com JS.</p>
+            <p data-i18n="descricao1">Desenvolvedor Full-Stack em formação, apaixonado por tecnologia e sempre buscando mais conhecimento .
+            </p>
+            <p data-i18n="descricao2">Sempre procurando aprender com desafios e novos projetos, seja Back ou Front-end.</p>
+            <p data-i18n="descricao3">Sou fã de música, animes, games e HQs.</p>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.linkedin.com/in/italo-cardoso-344050235/" title="Ir para o LinkedIn"
+                        target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://wa.me/5512991928842" title="Enviar mensagem no WhtasApp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/session" title="Ir para GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/" title="Ir para o Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-foto">
+            <div class="foto">
+                <img src="./src/imagens/foto-perfil-removebg-preview.png" alt="Ítalo Silva">
+            </div>
+        </div>
+    </section>
+
+    <section class="formacoes">
+        <div class="formacao" id="formacao">
+            <h2 data-i18n="formacaoTitulo">Formações</h2>
+            <p data-i18n="formacao">Sou formado em Automação Industrial, pela ETEC de São Jose dos Campos - Aquarius.</p>
+            <p data-i18n="formacao1">Também, formado em Técnico em Desenvolvimento de Sistemas, também pela ETEC.</p>
+            <p data-i18n="formacao2">Além disso, possuo vários cursos na área de programação, feitos na Alura, sendo Front-end e Back-end.
+                Também pela Data Science Academy, sendo Python para Data Science e Fundamentos da Engenharia De Dados.
+            </p>
+        </div>
+
+    </section>
+    <section class="projetos" id="projetos">
+        <h2 class="titulo">Meus Projetos</h2>
+
+        <div class="btn-projetos">
+            <button class="btn-mostrar-projetos-web" data-i18n="webProjects">Projetos Web</button>
+            <button class="btn-mostrar-projetos-mobile" data-i18n="mobileProjects">Projetos Mobile</button>
+            <button class="btn-mostrar-projetos-logica" data-i18n="logicProjects">Lógica de Programação</button>
+        </div>
+
+        <div class="container-projetos">
+            <div class="projeto mobile">
+                <a href="#">
+                    <img src="./src/imagens/projeto-pokemon.png" alt="Projeto Pode Dex">
+                    <h3>Projeto PokeDex Mobile</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto criado no Expo, utilizando React.js</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto mobile">
+                <a href="#">
+                    <img src="./src/imagens/projeto-calculadora.PNG" alt="Projeto Calculadora Fahrenheit">
+                    <h3>Projeto Calculadora Fahrenheit</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto criado no Expo, utilizando React.js</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto mobile">
+                <a href="#">
+                    <img src="./src/imagens/projeto-flatlist.PNG" alt="Projeto One Piece ">
+                    <h3>Projeto Versos Bíblicos</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto criado no Expo, utilizando React.js</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto mobile">
+                <a href="#">
+                    <img src="./src/imagens/projeto-listagem-pokemon.png" alt="Projeto Pokedex Mobile">
+                    <h3>Projeto Pokédex</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto criado no Expo, utilizando React.js</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="container-projetos">
+            <div class="projeto web">
+                <a href="#">
+                    <img src="./src/imagens/projeto-gta.png" alt="Projeto Land Page GTA ">
+                    <h3>Projeto GTA V </h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto web">
+                <a href="#">
+                    <img src="./src/imagens/projeto-one-piece.png" alt="Projeto Land Page GTA ">
+                    <h3>Projeto One Piece</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto web">
+                <a href="#">
+                    <img src="./src/imagens/projeto-x-men.png" alt="Projeto Land Page GTA ">
+                    <h3>Projeto X-Men</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto web">
+                <a href="#">
+                    <img src="./src/imagens/projeto-WebPlayer.PNG" alt="Projeto Land Page GTA ">
+                    <h3>Projeto Web Player</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <button class="btn-mostrar-projetos" data-i18n="showAllProjects">Mostrar Todos os Projetos</button>
+    </section>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/language.js"></script>
+</body>
+</html>
